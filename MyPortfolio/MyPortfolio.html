@@ -461,14 +461,58 @@
     }
     .gwd-img-1vnp {
       position: absolute;
-      height: 100px;
-      width: 128.64px;
-      left: 808px;
-      top: 1109px;
+      width: 75px;
+      height: 58.3px;
+      left: 766px;
+      top: 1110px;
+    }
+    .gwd-img-1u71 {
+      position: absolute;
+      width: 75px;
+      height: 97.05px;
+      left: 843px;
+      top: 1112px;
     }
   </style>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic|Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic|Noto+Serif:regular,italic,700,700italic|Libre+Baskerville:regular,italic,700|Josefin+Sans:100,100italic,300,300italic,regular,italic,600,600italic,700,700italic|Righteous:regular|Gloria+Hallelujah:regular|Patua+One:regular|Courgette:regular|Prompt:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Luckiest+Guy:regular|Kaushan+Script:regular|Kalam:300,regular,700|Fredoka+One:regular|Shadows+Into+Light+Two:regular|Bad+Script:regular|Prosto+One:regular|Just+Another+Hand:regular|Noto+Serif+JP:200,300,regular,500,600,700,900"
   rel="stylesheet" type="text/css">
+  <script type="text/javascript" gwd-events="support" src="gwd-events-support.1.0.js"></script>
+  <script type="text/javascript" gwd-events="handlers">
+    gwd.auto_PresidentAwardPhotoScanClick = function(event) {
+      // GWD Predefined Function
+      gwd.actions.events.setInlineStyle('PresidentAwardPhotoScan', 'transition: all 0.5s linear; height: auto; width: +50%;');
+    };
+    gwd.auto_PresidentAwardPhotoScanMouseleave = function(event) {
+      // GWD Predefined Function
+      gwd.actions.events.setInlineStyle('PresidentAwardPhotoScan', 'transition: all 0.25s linear; height: auto; width: 75px;');
+    };
+    gwd.auto_PresidentAwardLetterPhotoScanMouseover = function(event) {
+      // GWD Predefined Function
+      gwd.actions.events.setInlineStyle('PresidentAwardLetterPhotoScan', 'transition: all 0.25s linear; height: auto; width: 25%;');
+    };
+    gwd.auto_PresidentAwardLetterPhotoScanMouseleave = function(event) {
+      // GWD Predefined Function
+      gwd.actions.events.setInlineStyle('PresidentAwardLetterPhotoScan', 'transition: all 0.25s linear; height: auto; width: 75px;');
+    };
+  </script>
+  <script type="text/javascript" gwd-events="registration">
+    // Support code for event handling in Google Web Designer
+     // This script block is auto-generated. Please do not edit!
+    gwd.actions.events.registerEventHandlers = function(event) {
+      gwd.actions.events.addHandler('PresidentAwardPhotoScan', 'mouseover', gwd.auto_PresidentAwardPhotoScanClick, false);
+      gwd.actions.events.addHandler('PresidentAwardPhotoScan', 'mouseleave', gwd.auto_PresidentAwardPhotoScanMouseleave, false);
+      gwd.actions.events.addHandler('PresidentAwardLetterPhotoScan', 'mouseover', gwd.auto_PresidentAwardLetterPhotoScanMouseover, false);
+      gwd.actions.events.addHandler('PresidentAwardLetterPhotoScan', 'mouseleave', gwd.auto_PresidentAwardLetterPhotoScanMouseleave, false);
+    };
+    gwd.actions.events.deregisterEventHandlers = function(event) {
+      gwd.actions.events.removeHandler('PresidentAwardPhotoScan', 'mouseover', gwd.auto_PresidentAwardPhotoScanClick, false);
+      gwd.actions.events.removeHandler('PresidentAwardPhotoScan', 'mouseleave', gwd.auto_PresidentAwardPhotoScanMouseleave, false);
+      gwd.actions.events.removeHandler('PresidentAwardLetterPhotoScan', 'mouseover', gwd.auto_PresidentAwardLetterPhotoScanMouseover, false);
+      gwd.actions.events.removeHandler('PresidentAwardLetterPhotoScan', 'mouseleave', gwd.auto_PresidentAwardLetterPhotoScanMouseleave, false);
+    };
+    document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
+    document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
+  </script>
 </head>
 
 <body class="htmlNoPages">
@@ -689,6 +733,7 @@
   <img src="assets/NAI_LOGO.png" id="NAI_LOGO" class="gwd-img-tg09">
   <img src="assets/ATT-logo_2016.png" id="ATT-logo_2016" class="gwd-img-ati6">
   <img src="assets/PresidentAwardPhotoScan.webp" id="PresidentAwardPhotoScan" class="gwd-img-1vnp">
+  <img src="assets/PresidentAwardLetterPhotoScan.webp" id="PresidentAwardLetterPhotoScan" class="gwd-img-1u71">
 </body>
 
 </html>
