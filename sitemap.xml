@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="https://jessefore.net/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
    <url>
 
-      <loc>https://jessefore.net/</loc>
+      <loc>https://jessefore.net/index.html</loc>
 
       <lastmod>2019-03-06</lastmod>
 
@@ -14,5 +14,7 @@
 
    </url>
 
-</urlset> 
+</urlset>
+
+
 
