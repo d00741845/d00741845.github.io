@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"/>
+<title> My Learn JavaScript Page </title>
+
+<script type="text/javascript">
+function sayHi(){
+ alert("Just wanted to send alert to tell everyone 'Hi!'")
+}
+</script>
+</head>
+
+<body>
+<input type = "button" onclick="sayHi()" value="Tell Everyone 'Hi'"/>
+<br><br>
+Hello, we are learning javascript!
+<br><br>
+
+<script type="text/javascript">
+//  alert("Welcome to my wrold???");
+</script>
+
+<script type="text/javascript">
+  document.write("USING JS TO WRITE THIS LINE!","<br/>");
+
+  myvalue1=2;
+  myvalue2=5;
+  result=myvalue1+myvalue2;
+  document.write(result);
+
+//  if(confirm("do u agree")){alert('u agree')}
+//  else(alert("u not agree"));
+
+//  Username=prompt("enter name", "enter u name here");
+
+  // This func will return sum of two params
+  // note functions MUST BE DEFINED BEFORE USE
+  function sum2func(p1,par2){
+    return p1+par2;  // return sum
+  }
+  function toCelsius(Fahrenheit){
+    return (5/9)*(Fahrenheit-32);
+  }
+  //(50°C × 9/5) + 32 = 122°F
+  function toFahrenheit(Celsius){
+    return ((Celsius*(9/5))+32);
+  }
+
+
+  var x, name, Name;
+  x=6;
+  name="lilname";
+  Name="BigName";
+  document.write("The x value: ",x,".","<br/>");
+  document.write("And, x*2 value: ",x*2,"<br/>");
+  document.write("name: ",name,"<br/>");
+  document.write("Name: ",Name,"<br/>");
+  myName="Jeff";
+  document.write("myName: ",myName,"<br/>");
+  document.write("SumToFunc: ",sum2func(1,2),"<br/>");
+  document.write("50 deg F to C: ",toCelsius(50),"<br/>");
+  document.write("50 deg C to F: ",toFahrenheit(50),"<br/>");
+
+
+  if(5>4){
+    document.write("<br/>","<br/>");
+    document.write(" yes 5 is greater than 4");
+    document.write("<br/>"+"JavaScript is easy","<br/>","<br/>");
+  }  
+
+
+  document.cookie = "username = Marry Jane";
+  document.write("<br/>","<br/>");
+  var c = document.cookie;
+  document.write("doc cookie: "+c,"<br/>","<br/>");
+</script>
+
+
+
+ENJOY UR SYAY...<br>
+
+<script type="text/javascript">
+  document.write("<h1>Multiplication Table</h1>");
+  document.write("<table border = 2 width =50%>");
+  for(var i=1; i<=10; i++){ // outer loop
+    document.write("<tr>");
+    document.write("<td>"+i+"</td>");
+      for(var j=2; j<=10;j++){
+        document.write("<td>"+i*j+"</td>");
+      }
+      document.write("</tr>");
+  }
+  document.write("</table>");
+  document.write("<br/>","<br/>");
+
+
+
+function howMany(selectItem){
+  var numberSelected=0;
+  for(var i=0; i<selectItem.options.length; i++){
+    if(selectItem.options[i].selected==true){
+      numberSelected++;
+    }
+  }
+  return numberSelected;
+}
+</script>
+
+<form name = "selectForm">
+ <p>Choose book type(s), then click button for count of selected:</p>
+ <select multiple name="bookTypes" size="8">
+  <option selected>Clasic</option>
+  <option>Information Books</option>
+  <option>Fanticy</option>
+  <option>Mystery</option>
+  <option>Poetry</option>
+  <option>Humor</option>
+  <option>Biography</option>
+  <option>Fiction</option>
+ </select>
+ <input type="button" value="How many are selected?" onclick="alert('Name of options selected: '+howMany(document.selectForm.bookTypes))">
+</form><br/><br/>
+
+<script type="text/javascript">
+ var I=0;
+ while(I<=10){ // outout 0 to 10
+  document.write(I+"<br/>")
+  I++
+ }
+
+
+document.write("<p><b>Example of using the break statement: </b></p>");
+var J=0;
+for(J=0; J<=10; J++){
+ if(J==3){
+  break;
+ }
+ document.write("The num is: "+J,"<br/>")  
+}
+document.write("<p><b>Example of using the continue statement: </b></p>");
+var J=0;
+var linebreak="<br/>"
+for(J=0; J<=10; J++){
+ if(J==3){
+//  document.write(linebreak);
+  continue;
+ }
+ document.write("The num is: "+J+"<br/>")  
+}
+</script>
+
+
+<form>
+ <input type="button" value="PRINT" onclick="window.print()"/>
+</form><br/><br/>
+
+</body>
+</html>
+
+
