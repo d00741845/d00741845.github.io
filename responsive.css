@@ -7,11 +7,11 @@
   display: none;
 }
 
-.hero, .top-news, .scores, .weather, .recent-news {
+/*.scores, .weather,*/ .hero, .top-news, .recent-news {
   order: 10;
 }
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 610px) {
   .header__logo {
     height: 48px;
     margin-right: 0.5em;
@@ -54,15 +54,17 @@
   }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 611px) {
   .hero {
     order: 0;
     width: 60%;
   }
+/*
   .weather {
     order: 1;
     width: 40%;
   }
+*/
 }
 
 @media screen and (min-width: 700px) {
@@ -73,6 +75,7 @@
     order: 1;
     width: 50%;
   }
+/*
   .scores {
     order: 2;
     width: 60%;
@@ -80,6 +83,7 @@
   .weather {
     order: 3;
   }
+*/
 }
 
 @media screen and (min-width: 850px) {
