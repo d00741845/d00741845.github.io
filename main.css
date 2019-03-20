@@ -211,59 +211,59 @@ main {
 
 /*
  *
- * Sport Scores
+ * Eductaion(edu)
  *
- 
+*/ 
 
-.scores {
+.edu {
   padding-top: 1em;
   flex-grow: 1;
 }
 
-.scores__table {
+.edu__table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.scores__table th,
-.scores__table td {
+.edu__table th,
+.edu__table td {
   padding: 1em; 
 }
 
-.scores__table th {
+.edu__table th {
   color: #fff;
   font-weight: 300;
   background-color: #78909C;
 }
 
-.scores__table tr:nth-child(1) th:nth-child(3) {
+.edu__table tr:nth-child(1) th:nth-child(3) {
   text-align: right;
 }
 
-.scores__table tr:nth-child(1) th:nth-child(5) {
+.edu__table tr:nth-child(1) th:nth-child(5) {
   text-align: left;
 }
 
-.scores__table tr:nth-child(odd) td {
+.edu__table tr:nth-child(odd) td {
   background-color: #fff;
 }
 
-.scores__table tr:nth-child(even) td {
+.edu__table tr:nth-child(even) td {
   background-color: #eceff1;
 }
 
-.scores__table td.winner {
+.edu__table td.winner {
   font-weight: bold;
 }
 
-.scores__table td:nth-child(3) {
+.edu__table td:nth-child(3) {
   text-align: right;
 }
 
-.scores__table td:nth-child(1),
-.scores__table td:nth-child(2) {
+.edu__table td:nth-child(1),
+.edu__table td:nth-child(2) {
   text-align: center;
-}*/
+}
 
 
 

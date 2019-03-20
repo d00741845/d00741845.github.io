@@ -44,11 +44,11 @@ body {
     padding: 0;
   }
 }
-/*
+/**/
 @media screen and (max-width: 550px) {
-  .scores__table .scores__location {
+  .edu__table .edu__location {
     display: none;
-  }*/
+  }
 }
 
 @media screen and (max-width: 649px) {
@@ -82,9 +82,9 @@ body {
   }
 
 }
-/*
+/**/
 @media screen and (min-width: 700px) {
-  .scores__table {
+  .edu__table {
     font-size: 12px;
-  }*/
+  }
 }
