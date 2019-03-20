@@ -236,12 +236,20 @@ main {
   background-color: #78909C;
 }
 
-.edu__table tr:nth-child(1) th:nth-child(3) {
+/*.edu__table tr:nth-child(1) th:nth-child(3) {
   text-align: right;
+tr  table row
+th  table header
+td  table data elements (columns of table)
+
 }
 
-.edu__table tr:nth-child(1) th:nth-child(5) {
-  text-align: left;
+.edu__table tr:nth-child(1) {
+  text-align: center;
+}*/
+.edu__table th:nth-child(3) {
+  text-align: center;
+  font-weight: bold;
 }
 
 .edu__table tr:nth-child(odd) td {
@@ -252,16 +260,19 @@ main {
   background-color: #eceff1;
 }
 
+/*
 .edu__table td.winner {
   font-weight: bold;
-}
+}*/
 
 .edu__table td:nth-child(3) {
-  text-align: right;
+  text-align: left;
 }
-
+/*Note td is like Table Column */
 .edu__table td:nth-child(1),
-.edu__table td:nth-child(2) {
+.edu__table td:nth-child(2),
+.edu__table td:nth-child(4),
+.edu__table td:nth-child(5) {
   text-align: center;
 }
 
