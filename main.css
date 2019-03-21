@@ -356,6 +356,18 @@ td  table data elements (columns of table)
   margin-right: 1em;
 }
 
+.snippet__thumbnail1 {
+  width: 100px;
+  float: left;
+  margin-right: 1em;
+}
+
+.snippet__thumbnail2 {
+  width: 100px;
+  float: right;
+  margin-right: 1em;
+}
+
 .snippet__title {
   font-weight: 500;
 }

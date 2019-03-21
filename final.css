@@ -7,6 +7,14 @@ body {
   width: 100%;
 }
 
+.snippet__thumbnail1 > img {
+  width: 100%;
+}
+
+.snippet__thumbnail2 > img {
+  width: 100%;
+}
+
 .snippet {
   display: flex;
   flex-wrap: wrap;
@@ -23,6 +31,16 @@ body {
   width: 30%;
 }
 
+.snippet__thumbnail1 {
+  order: 1;
+  width: 15%;
+}
+
+.snippet__thumbnail2 {
+  order: 3;
+  width: 15%;
+}
+
 .snippet__description {
   order: 2;
   width: 70%;
@@ -33,9 +51,27 @@ body {
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
 }
+.snippet__description0 {
+  order: 2;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 1em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
 
 @media screen and (max-width: 450px) {
   .snippet__thumbnail {
+    display: none;
+  }
+
+  .snippet__thumbnail1 {
+    display: none;
+  }
+
+  .snippet__thumbnail2 {
     display: none;
   }
 
@@ -60,6 +96,16 @@ body {
     margin: 0;
   }
 
+  .snippet__thumbnail1 {
+    width: 15%;
+    margin: 0;
+  }
+
+  .snippet__thumbnail2 {
+    width: 15%;
+    margin: 0;
+  }
+
   .snippet__description {
     -webkit-line-clamp: 3;
     max-height: 3.7em;
@@ -72,6 +118,18 @@ body {
 
   .snippet__thumbnail {
     width: 30%;
+    height: 150px;
+    margin-right: 0;
+  }
+
+  .snippet__thumbnail1 {
+    width: 15%;
+    height: 150px;
+    margin-right: 0;
+  }
+
+  .snippet__thumbnail2 {
+    width: 15%;
     height: 150px;
     margin-right: 0;
   }
