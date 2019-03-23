@@ -3,7 +3,7 @@
   flex-wrap: wrap;
 }
 
-.header__menu {
+.hamburger__menu {
   display: none;
 }
 
@@ -42,15 +42,15 @@
     width: 100%;
     text-align: left;
   }
-  .header__menu {
+  .hamburger__menu {
     display: inline-block;
     position: absolute;
     right: 0;
     padding: 1em;
   }
-  .header__menu svg {
+  .hamburger__menu svg {
     width: 32px;
-    fill: #E0E0E0;
+    fill: #FFE0E0;
   }
 }
 
