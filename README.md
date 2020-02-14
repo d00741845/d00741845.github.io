@@ -1,3 +1,8 @@
+# Links
+https://d00741845.github.io/
+http://www.jessefore.net/
+www.linkedin.com/in/jesse-fore
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/d00741845/jfore.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
